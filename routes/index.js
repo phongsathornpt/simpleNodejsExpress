@@ -10,6 +10,9 @@ router.get('/', function(req, res, next) {
 router.get('/validation' , function(req, res, next){
   res.render('validation' , {title: 'test validation'});
 });
+router.get('/uri', function(req, res, next) {
+  res.render('addblog', { title: 'Express' });
+});
 
 router.post('/validation' ,
   [ 
