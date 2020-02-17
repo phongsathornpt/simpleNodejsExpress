@@ -7,7 +7,7 @@ router.get('/', function(req, res, next){
 });
 
 router.get('/add', function(req, res, next){
-    res.render("addblog");
+    res.render("from");
 });
 router.post('/add', function(req, res, next){
     console.log(req.body.name);
