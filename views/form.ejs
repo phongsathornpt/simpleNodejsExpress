@@ -3,6 +3,7 @@
   <head>
       <meta charset="utf-8">
     <title></title>
+    <script src="https://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
   </head>
   <body>
       <%- include layouts %>     
@@ -27,5 +28,8 @@
 
           </form>
       </div>
+      <script>
+        CKEDITOR.replace( 'description' );
+</script>
   </body>
 </html>
