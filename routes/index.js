@@ -13,12 +13,12 @@ router.get('/validation' , function(req, res, next){
 
 router.post('/validation' ,
   [ 
-    check("test" , "เห้ยใส่ข้อมูลก่อนกด input ดิวะ").not().isEmpty() 
+    check("name" , "เห้ยใส่ข้อมูลก่อนกด input ดิวะ").not().isEmpty() 
   ] , function(req, res, next){
     const result = validationResult(req);
-    var error = result.errors;
-    if(!error.isEmpty()){
-      res.render('validation' , {errors:errors});
+    var errors = result.errors;
+    if(!result.isEmpty()) {
+      res.render('validation' , {errors:errors} );
     }else{
       console.log(req.body.test);
     }
