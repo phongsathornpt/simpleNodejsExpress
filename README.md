@@ -12,7 +12,7 @@ see at https://simplenodejsexpress.herokuapp.com/
  - url 
  
 สร้าง form by aikQ and king
- - url 
+ - https://simplenodejsexpress.herokuapp.com/form   //60310075 และ 60310073
  
 สร้าง ฟั่งชั่นรับค่าจาก form by nattayaS
  - url 
