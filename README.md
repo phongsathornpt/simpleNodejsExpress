@@ -15,7 +15,7 @@ see at https://simplenodejsexpress.herokuapp.com/
  - https://simplenodejsexpress.herokuapp.com/form   //60310075 และ 60310073
  
 สร้าง ฟั่งชั่นรับค่าจาก form by nattayaS
- - url 
+ - url https://simplenodejsexpress.herokuapp.com/uri
  
 สร้าง ฟังชั่นเช็คค่า Validation by phongsathorn2540
  - https://simplenodejsexpress.herokuapp.com/validation
