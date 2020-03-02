@@ -5,7 +5,7 @@ const db = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
     password : '',
-    database : 'nodejsdb'
+    database : 'farm'
   })
  
 // ทำการเชื่อมต่อกับฐานข้อมูล 
@@ -17,5 +17,6 @@ db.connect((err) =>{
     console.log('connected as id ' + db.threadId)
 })
 // ปิดการเชื่อมต่อฐานข้อมูล MySQL ในที่นี้เราจะไม่ให้ทำงาน
-// db.end() 
+ /*db.end() 
+*/
 module.exports = db
