@@ -7,6 +7,10 @@
   },
   "dependencies": {
     "@hapi/joi": "^17.1.0",
+<<<<<<< HEAD
+=======
+    "cassandra-driver": "^4.4.0",
+>>>>>>> 2f64bfcedf978b7aa44e65c5a69099031ea6e25c
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
