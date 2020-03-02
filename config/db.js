@@ -4,8 +4,8 @@ const mysql = require('mysql') // เรียกใช้งาน MySQL module
 const db = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'buch1234',
-    database : 'farm'
+    password : '',
+    database : 'nodejsdb'
   })
  
 // ทำการเชื่อมต่อกับฐานข้อมูล 
