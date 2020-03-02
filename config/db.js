@@ -5,7 +5,7 @@ const db = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
     password : 'buch1234',
-    database : 'fram'
+    database : 'farm'
   })
  
 // ทำการเชื่อมต่อกับฐานข้อมูล 
